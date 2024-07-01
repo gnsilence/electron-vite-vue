@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import PouchDB from 'pouchdb'
+import PouchDB from 'pouchdb-browser'
 defineProps<{ msg: string }>()
 // There will be problems here.
 const db = new PouchDB('test')

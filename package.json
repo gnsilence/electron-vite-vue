@@ -25,6 +25,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/pouchdb-browser": "^6.1.5",
     "@vitejs/plugin-vue": "^5.0.4",
     "electron": "^29.1.1",
     "electron-builder": "^24.13.3",
@@ -36,7 +37,6 @@
     "vue-tsc": "^2.0.6"
   },
   "dependencies": {
-    "@types/pouchdb": "^6.4.2",
-    "pouchdb": "^9.0.0"
+    "pouchdb-browser": "^9.0.0"
   }
 }
